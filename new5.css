@@ -20,12 +20,12 @@ header{
  display: flex;
 }
 
-#IMAGE{
+#image{
     padding-left: 50px;
     padding-right: 50px; 
 }
 
-#IMAGE img {
+#image img {
     box-shadow: 5px 10px #888888;
     border-radius: 10px;
    
