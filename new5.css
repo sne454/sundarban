@@ -164,7 +164,7 @@ p1{
 
 /*///RESPONSIVE///*/
 
-@media only screen and (max-width:1180 px){
+@media only screen and (max-width:1180px){
     .main-content-header{
         
         width: 100px;
@@ -172,13 +172,13 @@ p1{
 
     }
 }
-@media only screen and (max-width:998 px){
+@media only screen and (max-width:998px){
           h1{font-size: 200px;}
 
 
 }
 
-@media only screen and (max-width:768 px){
+@media only screen and (max-width:768px){
     h1{font-size: 180px;}
 
 }
