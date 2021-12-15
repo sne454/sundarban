@@ -13,23 +13,82 @@ header{
     background-image: url("cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    backface-visibility: hidden;
+    height: 200vh;
 }
 
 #main-body {
  display: flex;
 }
 
+#calamity {
+    display: inline-flex;
+   }
+
+#calamity2 {
+    display: inline-flex;
+    padding-top: 0px;
+   }
+
+#calamity3 {
+
+    display: inline-flex;
+    padding-top: 40px;
+   }
+
 #image{
     padding-left: 50px;
-    padding-right: 50px; 
+    padding-right: 50px;
+    
 }
 
 #image img {
     box-shadow: 5px 10px #888888;
     border-radius: 10px;
+    
+}
+
+#image-2{
+    padding-left: 30px;
+    padding-right: 30px; 
+    
+}
+
+#image-2 img {
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
    
 }
+
+#image-3{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    
+}
+
+#image-3 img{
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+   
+}
+
+#image-4{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    
+}
+
+#image-4 img{
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+   
+}
+
+
+
+
 
 .clearfix :after{
     content: ".";
@@ -91,9 +150,10 @@ h1{
 
 h2{
     font-size: 300%;    
-    color: yellow;
+    color:rgb(254, 255, 194);
     word-spacing: 2px;
     letter-spacing: 2px;
+    padding-top: 20px;
     margin-bottom: 40px;
     margin-left: 90px;
     font-weight: bold;
@@ -105,6 +165,28 @@ p1{
    margin-top: 20px;
     font-size: 115%; 
     color: white;   
+}
+
+p2{
+    margin-top: 20px;
+    font-size: 112%;
+    font-weight: 200; 
+    color: black;
+}
+
+p3{
+    padding-top: 20px;
+    font-size: 115%;
+    font-weight: bold; 
+    color: rgb(126, 18, 18);
+}
+p{
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 110%; 
+    
+    color:white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn{
     display:inline-block;

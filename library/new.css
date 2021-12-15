@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: rgb(1, 49, 49);
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image: url("download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    height: 100vh;
+}
